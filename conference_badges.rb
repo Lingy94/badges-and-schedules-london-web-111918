@@ -22,7 +22,7 @@ return array2
 end
 
 def printer(attendees)
-  for i in 0..7
+  while i
   puts batch_badge_creator(attendees)[i]
   end
   return assign_rooms(attendees)
