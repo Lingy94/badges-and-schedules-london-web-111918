@@ -27,5 +27,5 @@ def printer(attendees)
 end
 for i in 0..7
   puts assign_rooms(attendees)[i]
-
+end
 end
