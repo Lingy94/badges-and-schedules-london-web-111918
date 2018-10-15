@@ -22,7 +22,8 @@ return array2
 end
 
 def printer(attendees)
-  while i
+  i = 0
+  while i < attendees.length
   puts batch_badge_creator(attendees)[i]
   end
   return assign_rooms(attendees)
